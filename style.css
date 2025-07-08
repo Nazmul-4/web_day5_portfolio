@@ -1,0 +1,145 @@
+
+.open-sans-normal {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400; /* Replace 400 with your desired weight (e.g., 300, 500, 700) */
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+/* header */
+.header{
+    background-image: url('images/developer.png'), url('images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+
+}
+
+
+
+
+
+/* nav styles */
+
+/* header{
+    background-color: #FFF8F3;
+} */
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 80px;
+
+}
+nav h3{
+    font: open sans, sans-serif;
+    font-size: 45px;
+    padding-left: 50px;
+    font-weight: 800;
+
+}
+nav span{
+    color: #FD6E0A;
+}
+nav ul{
+
+    display: flex;
+    align-items: center;
+    /* list-style: none;
+    margin: 0;
+    padding-left: 60%;
+    display: flex;
+    justify-content: space-between;
+    gap: 60px; */
+    
+
+
+}
+
+.dark-1{
+    color: #474747;
+}
+
+nav ul li{
+    margin-right: 51px;
+    list-style: none;
+}
+nav li a{
+    text-decoration: none;
+    font-size: 20px;
+}
+nav li a:hover{
+    color: #FD6E0A;
+}
+
+.btn{
+    height: 50px;
+    width: 110px;
+    background-color: #FD6E0A;
+    font: open sans, sans-serif;
+    border-radius: 5px;
+    padding: 11px 10px;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 17px;
+    border: none;
+}
+
+
+
+
+/* Banner styles */
+.banner{
+    display: flex;
+    /* padding-left: 130px; */
+    justify-content: space-between;
+    margin: 0 0 0 130px;
+
+
+
+}
+.banner-content{
+    max-width: 580px;
+
+}
+.greeting{
+    height: 80px;
+    width: 170px;
+    font: 500;
+    font-size: 20px;
+    margin-top: 180px;
+    margin-bottom: 0px;
+}
+.title{
+    height: 110px;
+    weight: 800;
+    font-size: 80px;
+    color: #474747;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.img{
+    height: 675px;
+    width: 970 px;
+    margin-right: 40px;
+
+}
+
+.btn-2{
+    height: 50px;
+    width: 130px;
+    background-color: #FD6E0A;
+    font: open sans, sans-serif;
+    border-radius: 5px;
+    padding: 11px 10px;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 17px;
+    border: none;
+    margin-top: 30px;
+    margin-right: 20px;
+
+}
